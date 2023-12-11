@@ -80,7 +80,7 @@ function index({ tab, setTab, children }) {
                     </div>
                 </div>
                 <div className="py-4">
-                    <button className="px-6 py-3 bg-cyan-900 rounded-lg">Đăng xuất</button>
+                    <button onClick={() => setTab('login')} className="px-6 py-3 bg-cyan-900 rounded-lg">Đăng xuất</button>
                 </div>
             </div>
 

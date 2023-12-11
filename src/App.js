@@ -6,7 +6,7 @@ import Spending from './components/Spending'
 import { useState } from 'react'
 
 function App() {
-  const [ tab, setTab ] = useState("login")
+  const [ tab, setTab ] = useState("income")
   return (
     <div className="App">
       {tab === 'income' && <Income setTab={setTab} />}
